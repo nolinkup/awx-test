@@ -6,4 +6,6 @@
       - name: Gib was aus
         debug: 
            msg: Ansible ist wunderbar "{{ ansible_hostname }}"
-      - action: debug msg=super sache mit der Carsten
+      - name: Noch was zu lesen
+        debug: 
+          msg: Das ist einfach nur ein text ohne variable
