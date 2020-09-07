@@ -1,2 +1,4 @@
 [centos]
 ceph-adm
+ceph-client
+ceph-server-1
