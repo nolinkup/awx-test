@@ -6,3 +6,4 @@
       - name: Gib was aus
         debug: 
            msg: Ansible ist wunderbar "{{ ansible_hostname }}"
+  - action: debug msg=Tolle Sache
