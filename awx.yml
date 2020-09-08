@@ -11,4 +11,4 @@
           msg: Das ist einfach nur ein text ohne variable
       - name: debug input
         debug:
-          msg: var=eingabe
+          msg: Eingabe ist ':' "{{ eingabe }}"
