@@ -12,3 +12,7 @@
       - name: debug input
         debug:
           msg: Eingabe ist ':' "{{ eingabe }}"
+      - name: create directory 
+        file:
+            path: /tmp/ansible.managed # required. Path to the file being managed.
+            state: directory
