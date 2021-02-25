@@ -9,7 +9,7 @@
       - name: Noch was zu lesen
         debug: 
           msg: Das ist einfach nur ein text ohne variable
-      - name: debug input
+      - name: debug input test
         debug:
           msg: Eingabe ist ':' "{{ eingabe }}"
       - name: create directory 
